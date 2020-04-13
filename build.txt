@@ -1,0 +1,3 @@
+displayName = Unlimited Zoom
+author = -Cyril-
+version = 0.1

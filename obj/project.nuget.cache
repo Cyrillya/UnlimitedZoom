@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NbG4spcQcbMxelqskqnUu50R/CUdmXqoCBnbxJA/xplmTu9Ul5TqbrnA1wGGIe5b3dl8bv2dpa0dvis79eZdnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\UnlimitedZoom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

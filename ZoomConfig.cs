@@ -34,8 +34,13 @@ namespace UnlimitedZoom
         public override ConfigScope Mode => ConfigScope.ClientSide;
 
         public static UnlimitedZoomConfig Instance;
-        [Range(0, 1000000)]
-        [Label("缩放比(为0即不开启此模式)")]
+        [Range(0, 500)]
+        [Slider]
+        [Label("$Mods.UnlimitedZoom.Common.GameZoom")]
         public int SuperZoom;
+        [Range(0, 200)]
+        [Slider]
+        [Label("$Mods.UnlimitedZoom.Common.UIZoom")]
+        public int UIZoom;
     }
 }

@@ -1,35 +1,61 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.5": {}
+    ".NETFramework,Version=v4.5": {
+      "tModLoader.CodeAssist/0.1.1": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "tModLoader.CodeAssist/0.1.1": {
+      "sha512": "bUQ4HAiRYq8Zisms7FI9ffSf4nZHwFFZU5j8Hpc/9rFB16GOGJg2ulHV0ZDErzoAAbXBeRdO8/VbSltBwmDcpA==",
+      "type": "package",
+      "path": "tmodloader.codeassist/0.1.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetIcon.png",
+        "analyzers/dotnet/cs/tModLoader.CodeAssist.dll",
+        "tmodloader.codeassist.0.1.1.nupkg.sha512",
+        "tmodloader.codeassist.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.5": []
+    ".NETFramework,Version=v4.5": [
+      "tModLoader.CodeAssist >= 0.1.*"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\94945\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\94945\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\UnlimitedZoom.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\UnlimitedZoom.csproj",
       "projectName": "UnlimitedZoom",
-      "projectPath": "C:\\Users\\94945\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\UnlimitedZoom.csproj",
-      "packagesPath": "C:\\Users\\94945\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\94945\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\obj\\",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\UnlimitedZoom.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\UnlimitedZoom\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\94945\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net45"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +70,15 @@
       }
     },
     "frameworks": {
-      "net45": {}
+      "net45": {
+        "dependencies": {
+          "tModLoader.CodeAssist": {
+            "target": "Package",
+            "version": "[0.1.*, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
     }
   }
 }

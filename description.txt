@@ -1,3 +1,17 @@
+- English -
+This is a mod that can adjust strang zooms
+For some reason in the vanilla Terraria, some bugs may appear when the zoom time is small
+Please understand
+
+How to use:
+1. Open the settings in the game, find the Mod Configuration item, click and click Unlimited Zoom: Zoom Config item
+   Or click the "gear" icon directly on the Mod list interface
+2. Find the "zoom value" item and adjust it to the zoom you want. The available range of values is [0,1000000], and if you adjust it to 0, this mode is not turned on.
+
+There are two types of zooming, namely "Game screen zoom value" and "UI screen zoom value", as the name suggests. The maximum value of the latter is still 200%
+This mod will not be synchronized in server mode, that means even if the server not loading this mod, you can still use this mod and it will not be automatically replaced
+
+- 中文 -
 这是一个能够调更加奇奇怪怪的缩放的Mod
 因为原版的某种原因，缩放调小时可能会出现一些画面Bug
 请谅解
@@ -5,6 +19,7 @@
 使用方式：
 1.在游戏中打开设置，找到Mod Configuration项，点开并点开Unlimited Zoom: Zoom Config项
   或直接在Mod列表界面点开“齿轮”图标
-2.找到“缩放比”项，将它调为你想要的缩放，值的可用范围是[0,1000000]，调为0即视为不开启此模式
+2.找到“缩放值”项，将它调为你想要的缩放，值的可用范围是[0,1000]，调为0即视为不开启此模式
 
+分为两种缩放，分别为“游戏画面缩放值”以及“UI画面缩放值”，作用如名字所示。后者最大值仍然是200%
 本Mod并不会在服务器模式下同步，也就是说即使服务器没有加载此Mod，你依然可以使用此Mod并不会被自动禁用

@@ -2,3 +2,4 @@ displayName = Unlimited Zoom
 author = -Cyril-
 version = 1.0
 side = Client
+buildIgnore = .vs\*, Properties\*, *.csproj, *.user, obj\*, bin\*, *.config, .git\*, *.vssettings

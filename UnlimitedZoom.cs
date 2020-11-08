@@ -16,13 +16,16 @@ namespace UnlimitedZoom
             base.Load();
             ModTranslation text = CreateTranslation("Common.GameZoom");
             text.SetDefault("Game screen zoom value (%) (0 means not open this mode)");
-            text.AddTranslation(GameCulture.Chinese, "游戏画面缩放值(%)(为0即不开启此模式)");
+            text.AddTranslation((int)GameCulture.CultureName.Chinese, "游戏画面缩放值(%)(设为0则不启用该设置)");
             AddTranslation(text);
             text = CreateTranslation("Common.UIZoom");
             text.SetDefault("UI screen zoom value (%) (0 means not open this mode)");
-            text.AddTranslation(GameCulture.Chinese, "UI画面缩放值(%)(为0即不开启此模式)");
+            text.AddTranslation((int)GameCulture.CultureName.Chinese, "UI画面缩放值(%)(设为0则不启用该设置)");
             AddTranslation(text);
         }
+    }
+    public class UnlimitedSystem : ModSystem
+    {
         public override void ModifyTransformMatrix(ref SpriteViewMatrix Transform)
         {
             if (Main.gameMenu)
@@ -38,6 +41,5 @@ namespace UnlimitedZoom
                 Main.UIScale = ((float)UnlimitedZoomConfig.Instance.UIZoom) / 100f;
             }
         }
-        
     }
 }
